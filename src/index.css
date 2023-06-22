@@ -5,9 +5,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  align-content: center;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.task-table th,
+.task-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.task-table th {
+  font-weight: bold;
+  background-color: #f2f2f2;
+}
+
+.completed {
+  background-color: #aafca3;
+}
+
+
+
